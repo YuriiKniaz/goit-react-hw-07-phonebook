@@ -11,7 +11,9 @@ export const App = () => {
       <ContactForm />
 
       <h2 className={app.secondTitle}>Contacts</h2>
+
       <Filter />
+
       <ContactList />
     </div>
   );
