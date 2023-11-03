@@ -3,7 +3,6 @@ import list from './ContactList.module.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { deleteContact, fetchContacts } from 'redux/contactsOperations';
 import {
-  selectFilteredContacts,
   selectLoading,
   selectError,
   selectFilter,
